@@ -1,6 +1,8 @@
 n = input()
-new_n = num[::-1]
-if eval(num) == eval(new_n):
-    print("此数是回文数")
+if len(n) != 5or not num.sdigit():
+    print("输入错误")
 else:
-    print("此数不是回文数")
+    if n == n[::-1]
+        print("此数是回文数")
+    else:
+        print("此数不是回文数")
