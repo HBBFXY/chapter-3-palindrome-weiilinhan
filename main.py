@@ -1,5 +1,5 @@
 n = input()
-if len(n) != 5 or not num.isdigit():
+if len(n) != 5 or not n.isdigit():
     print('输入错误：请输入5位数字')
 else:
     if n == n[::-1]:
