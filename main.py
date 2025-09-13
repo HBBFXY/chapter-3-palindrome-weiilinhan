@@ -1,4 +1,4 @@
-n = input('请输入一个5位数字:')
+n = input()
 if len(n) != 5 or not num.isdigit():
     print("错误提示：输入必须是5位纯数字")
 else:
